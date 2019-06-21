@@ -7,4 +7,12 @@ python:
     - "3.7-dev"
     - "3.8-dev"
     - "nightly"
-script: pytest
+
+script: 
+    - pytest --cov=./
+
+env:
+    - CODECOV_TOKEN="e58d5daa-8388-482f-a2b1-75a6d3741e80"
+
+after_success:
+    - codedov
