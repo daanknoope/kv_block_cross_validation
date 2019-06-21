@@ -1,2 +1,2 @@
 # kv_block_cross_validation
-Cross validation for dependent datasets Python library
+Cross validation for dependent datasets Python library based on: *Consistent cross-validatory model-selection for dependent data: hv-block cross-validation* by Jeff Racine, 2000, https://www.sciencedirect.com/science/article/pii/S0304407600000300
