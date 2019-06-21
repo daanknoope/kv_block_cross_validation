@@ -8,7 +8,7 @@ python:
     - "nightly"
 
 script: 
-    - pytest --cov=./
+    - pytest
 
 env:
     - CODECOV_TOKEN="e58d5daa-8388-482f-a2b1-75a6d3741e80"
