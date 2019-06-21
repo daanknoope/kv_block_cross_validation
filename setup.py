@@ -7,5 +7,5 @@ setup(name='kv_block_cross_validation',
       author_email='daan@knoope.dev',
       license='MIT',
       packages=find_packages(), install_requires=[],
-      python_requires='>3.5'
+      python_requires='>3.6'
       )
