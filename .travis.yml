@@ -7,8 +7,11 @@ python:
     - "3.8-dev"
     - "nightly"
 
+install:
+    - pip install pytest pytest-cov
+
 script: 
-    - pytest
+    - pytest --cov=./
 
 env:
     - CODECOV_TOKEN="e58d5daa-8388-482f-a2b1-75a6d3741e80"
